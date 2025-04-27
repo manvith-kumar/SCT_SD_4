@@ -23,3 +23,22 @@ Create a Python program that extracts product information (name, price, rating) 
 3. **Enter a product name** when prompted (e.g., "wireless headphones")
 
 4. **View results** in products.csv
+
+## Tech Stack
+- Python 3.x
+- BeautifulSoup (HTML parsing)
+- Requests (HTTP calls)
+- CSV (data export)
+
+## Example Output (products.csv)
+   ```bash
+   Product Name,Price (₹),Rating
+   boAt Airdopes 141,1299,4.1
+   JBL Tune 230NC,5999,4.3
+   Sony WH-CH720N,7990,4.2
+   ```
+   
+## Ethical Note
+- This is for educational purposes only
+- Respect websites' robots.txt and terms of service
+- Add delays between requests to avoid overloading servers
