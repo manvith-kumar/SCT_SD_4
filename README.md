@@ -29,3 +29,9 @@ Create a Python program that extracts product information (name, price, rating) 
 - BeautifulSoup (HTML parsing)
 - Requests (HTTP calls)
 - CSV (data export)
+
+## Ethical Note
+- This is for educational purposes only
+- Respect websites' robots.txt and terms of service
+- Add delays between requests to avoid overloading servers
+
