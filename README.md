@@ -1,37 +1,38 @@
-# SCT_SD_4 - E-commerce Web Scraper
+# SCT-SD_4: Amazon Product Scraper
 
-## 📝 Task Description
-Create a Python program that extracts product information (name, price, rating) from e-commerce websites and stores it in a CSV file.
+## 🚀 Task Description
+A Python web scraper that extracts product data (title, rating, reviews, availability) from Amazon search results and exports to CSV.
 
 ## ✨ Features
-- Scrapes product data from Amazon search results
-- Handles pagination (multiple pages)
-- Saves data to structured CSV format
-- Implements polite scraping with delays between requests
-- Error handling for robust operation
+- **Search Any Product**: Enter any product name via CLI
+- **Pagination Support**: Scrape multiple pages
+- **Data Cleaning**: Normalized ratings and review counts
+- **Polite Scraping**: Built-in delays between requests
+- **CSV Export**: Structured output file
 
-## 🚀 How to Run
-
-1. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   
-2. **Run the scraper**:
-   ```bash
-   python ecommerce_scraper.py
-
-3. **Enter a product name** when prompted (e.g., "wireless headphones")
-
-4. **View results** in products.csv
-
-## Tech Stack
-- Python 3.x
+## 🛠️ Tech Stack
+- Python 3.10+
 - BeautifulSoup (HTML parsing)
 - Requests (HTTP calls)
-- CSV (data export)
+- Pandas (data export)
 
-## Ethical Note
-- This is for educational purposes only
-- Respect websites' robots.txt and terms of service
-- Add delays between requests to avoid overloading servers
+## 🏃‍♂️ How to Run
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+2. Run the scraper:
 
+   ```bash
+   python amazon_scraper.py
+3. Enter product name (e.g., wireless headphones)
+
+4. View results in amazon_[product]_products.csv
+
+## ⚠️ Ethical Note
+- For educational purposes only
+
+- Respect robots.txt and Amazon's terms
+
+- Add delays (2+ sec) between requests
+
+- Do not use for commercial scraping
