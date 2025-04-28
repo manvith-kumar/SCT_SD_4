@@ -26,7 +26,7 @@ A Python web scraper that extracts product data (title, rating, reviews, availab
    python amazon_scraper.py
 3. Enter product name (e.g., wireless headphones)
 
-4. View results in amazon_[product]_products.csv
+4. View results in amazon_[product]_products.csv (e.g., amazon_wireless+earbuds_products)
 
 ## ⚠️ Ethical Note
 - For educational purposes only
